@@ -51,7 +51,7 @@ This function `converter`  takes two parameters:
 It starts with a check to see if the input DJVU file exists in the current folder. If not, it raises a `FileNotFoundError`  with an appropriate message.
 
 ```python
-  			# Use DjVuLibre's `ddjvu` command line tool to convert DJVU to PNM format
+  		# Use DjVuLibre's `ddjvu` command line tool to convert DJVU to PNM format
         pnm_filename = output_pdf.replace(".pdf", ".pnm")
         subprocess.run(["ddjvu", "-format=pnm", input_djvu, pnm_filename])
 ```
