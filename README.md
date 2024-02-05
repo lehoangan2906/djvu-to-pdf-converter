@@ -70,7 +70,7 @@ This part of the code calls the `ddjvu`  command line tool with subprocess to co
         - ImageMagick supports a wide range of image formats, including PNM, and can easily convert them to PDF.
 
 ```python
-		    # Check if PNM file was created successfully
+		# Check if PNM file was created successfully
         if not os.path.exists(pnm_filename):
             raise Exception("Conversion to PNM failed.")
 ```
