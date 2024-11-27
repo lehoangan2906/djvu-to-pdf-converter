@@ -111,3 +111,13 @@ Finally, if everything is successful, it prints a message indicating the convers
 ```
 
 The `try-except`  block catches any exceptions that might occur during the process and prints an error message if there’s an issue.
+
+# To run this project
+
+- First, copy and paste the djvu file you want to convert inside this code folder.
+- Open the `main.py` file using any code editor or IDE (VSCode, Sublimetext, etc,.) and modify the value of `input_djvu_file` variable to your djvu file name, as well as the value of `output_pdf_file` variable to your desire output file name.
+- Open terminal (or CMD if you're using Windows), navigate to this code folder, then enter the following prompt:
+```bash
+python3 main.py
+```
+And your converted file is now ready in the folder.
